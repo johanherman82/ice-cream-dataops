@@ -3,7 +3,9 @@ environment:
   project: cdf-bootcamp-16-prod # ex. cdf-bootcamp-01-test
   type: prod # prod, staging, dev, test, qa
   selected:
-
+  - modules/bootcamp/data_foundation
+  - modules/bootcamp/ice_cream_api
+  - modules/bootcamp/use_cases/oee
 variables:
   modules:
     bootcamp:
@@ -34,7 +36,3 @@ variables:
       use_cases:
         oee:
           uc_oee_ds_external_id: ds_uc_oee
-  selected:
-  - modules/bootcamp/data_foundation
-  - modules/bootcamp/ice_cream_api
-  - modules/bootcamp/use_cases/oee
